@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="850" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="50%" stop-color="#111633"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="termBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d333b"/>
+      <stop offset="100%" stop-color="#22272e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="termClip">
+      <rect x="490" y="58" width="330" height="222" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <rect width="850" height="300" fill="url(#bgGrad)" rx="6"/>
+
+  <g stroke="#58a6ff" stroke-width="0.3" opacity="0.04">
+    <line x1="0" y1="60" x2="850" y2="60"/>
+    <line x1="0" y1="120" x2="850" y2="120"/>
+    <line x1="0" y1="180" x2="850" y2="180"/>
+    <line x1="0" y1="240" x2="850" y2="240"/>
+    <line x1="170" y1="0" x2="170" y2="300"/>
+    <line x1="340" y1="0" x2="340" y2="300"/>
+    <line x1="510" y1="0" x2="510" y2="300"/>
+    <line x1="680" y1="0" x2="680" y2="300"/>
+  </g>
+
+  <circle cx="80" cy="45" r="1.2" fill="#58a6ff" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="45;30;45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="280" r="1" fill="#a78bfa" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="5s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="280;265;280" dur="5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="60" r="1.5" fill="#34d399" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;48;60" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="250" r="1" fill="#58a6ff" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="6s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="250;240;250" dur="6s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="180" r="0.8" fill="#f59e0b" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;170;180" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="140" r="1.2" fill="#a78bfa" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="5.5s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="140;125;140" dur="5.5s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="250" cy="150" r="100" fill="#58a6ff" opacity="0.02" filter="url(#softGlow)">
+    <animate attributeName="r" values="100;115;100" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="140" r="60" fill="#a78bfa" opacity="0.015" filter="url(#softGlow)">
+    <animate attributeName="r" values="60;72;60" dur="5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="45" y="75" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" fill="#8b949e" letter-spacing="4" opacity="0">
+    HELLO WORLD, I'M
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  </text>
+
+  <text x="45" y="125" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">
+    José Luis
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <text x="45" y="175" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">
+    García Valverde
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <line x1="45" y1="185" x2="45" y2="185" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0">
+    <animate attributeName="x2" values="45;420" dur="0.8s" begin="1.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>
+  </line>
+
+  <text x="45" y="215" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#9ca3af" opacity="0">
+    Backend Software Engineer · Distributed Systems
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.8s" fill="freeze"/>
+    <rect x="45" y="232" width="95" height="24" rx="12" fill="#1a3a1a" stroke="#34d399" stroke-width="0.8"/>
+    <text x="92" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#34d399" text-anchor="middle">Spring Boot</text>
+    <rect x="148" y="232" width="70" height="24" rx="12" fill="#1a2a3a" stroke="#58a6ff" stroke-width="0.8"/>
+    <text x="183" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#58a6ff" text-anchor="middle">Docker</text>
+    <rect x="226" y="232" width="65" height="24" rx="12" fill="#1a1a3a" stroke="#a78bfa" stroke-width="0.8"/>
+    <text x="258" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle">React</text>
+    <rect x="299" y="232" width="110" height="24" rx="12" fill="#3a2a1a" stroke="#f59e0b" stroke-width="0.8"/>
+    <text x="354" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">🚀 Open to Work</text>
+  </g>
+
+  <text x="45" y="280" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#6b7280" opacity="0">
+    📍 Murcia, Spain  ·  🎓 Universidad de Murcia  ·  💻 CS 2026
+    <animate attributeName="opacity" values="0;0.8" dur="0.6s" begin="2.1s" fill="freeze"/>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze"/>
+    <rect x="493" y="33" width="330" height="244" rx="10" fill="#000" opacity="0.3" filter="url(#softGlow)"/>
+    <rect x="490" y="30" width="330" height="244" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <rect x="490" y="30" width="330" height="30" rx="10" fill="url(#termBar)"/>
+    <rect x="490" y="50" width="330" height="10" fill="url(#termBar)"/>
+    <circle cx="510" cy="45" r="5.5" fill="#f85149" opacity="0.9"/>
+    <circle cx="528" cy="45" r="5.5" fill="#d29922" opacity="0.9"/>
+    <circle cx="546" cy="45" r="5.5" fill="#3fb950" opacity="0.9"/>
+    <text x="655" y="49" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#8b949e" text-anchor="middle">about_me.sh</text>
+
+    <g clip-path="url(#termClip)" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="12.5">
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
+        <text x="505" y="82" fill="#3fb950">❯</text>
+        <text x="522" y="82" fill="#79c0ff">cat</text>
+        <text x="550" y="82" fill="#c9d1d9">about_me.json</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.2s" fill="freeze"/>
+        <text x="505" y="104" fill="#8b949e">{</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
+        <text x="520" y="126" fill="#ff7b72">"role"</text>
+        <text x="568" y="126" fill="#8b949e">:</text>
+        <text x="580" y="126" fill="#a5d6ff">"Backend Engineer"</text>
+        <text x="730" y="126" fill="#8b949e">,</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.8s" fill="freeze"/>
+        <text x="520" y="148" fill="#ff7b72">"stack"</text>
+        <text x="574" y="148" fill="#8b949e">:</text>
+        <text x="586" y="148" fill="#a5d6ff">"Spring Boot"</text>
+        <text x="700" y="148" fill="#8b949e">,</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.1s" fill="freeze"/>
+        <text x="520" y="170" fill="#ff7b72">"tools"</text>
+        <text x="574" y="170" fill="#8b949e">:</text>
+        <text x="586" y="170" fill="#a5d6ff">"Docker, MQ"</text>
+        <text x="700" y="170" fill="#8b949e">,</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.4s" fill="freeze"/>
+        <text x="520" y="192" fill="#ff7b72">"db"</text>
+        <text x="550" y="192" fill="#8b949e">:</text>
+        <text x="562" y="192" fill="#a5d6ff">"MongoDB"</text>
+        <text x="644" y="192" fill="#8b949e">,</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/>
+        <text x="520" y="214" fill="#ff7b72">"status"</text>
+        <text x="580" y="214" fill="#8b949e">:</text>
+        <text x="592" y="214" fill="#3fb950">"Open to work"</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4s" fill="freeze"/>
+        <text x="505" y="236" fill="#8b949e">}</text>
+      </g>
+      <rect x="518" y="245" width="8" height="14" fill="#58a6ff" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <text x="455" y="70" font-family="monospace" font-size="22" fill="#58a6ff" opacity="0.08">
+    { }
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="448" y="155" font-family="monospace" font-size="16" fill="#a78bfa" opacity="0.06">
+    &lt;/&gt;
+    <animateTransform attributeName="transform" type="translate" values="0,0;4,-8;0,0" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </text>
+  <text x="460" y="240" font-family="monospace" font-size="14" fill="#34d399" opacity="0.06">
+    =&gt;
+    <animateTransform attributeName="transform" type="translate" values="0,0;-3,-6;0,0" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="420" y="110" font-family="monospace" font-size="12" fill="#f59e0b" opacity="0.05">
+    /**
+    <animateTransform attributeName="transform" type="translate" values="0,0;5,-5;0,0" dur="7s" begin="0.5s" repeatCount="indefinite"/>
+  </text>
+
+  <rect x="0" y="296" width="850" height="4" fill="url(#nameGrad)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
