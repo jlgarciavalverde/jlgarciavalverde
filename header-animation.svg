@@ -1,213 +1,143 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="850" height="300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0c1a"/>
-      <stop offset="50%" stop-color="#111633"/>
-      <stop offset="100%" stop-color="#0a0e1a"/>
+      <stop offset="0%" stop-color="#06080f"/><stop offset="35%" stop-color="#0c1222"/>
+      <stop offset="65%" stop-color="#111833"/><stop offset="100%" stop-color="#080c18"/>
     </linearGradient>
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#34d399"/>
+      <stop offset="0%" stop-color="#58a6ff"/><stop offset="40%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.9"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="termBar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2d333b"/>
-      <stop offset="100%" stop-color="#22272e"/>
+      <stop offset="0%" stop-color="#2d333b"/><stop offset="100%" stop-color="#1c2128"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <clipPath id="termClip">
-      <rect x="490" y="58" width="330" height="222" rx="0"/>
-    </clipPath>
+    <linearGradient id="termBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#090d14"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/><stop offset="33%" stop-color="#a78bfa"/>
+      <stop offset="66%" stop-color="#34d399"/><stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.06"/><stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.04"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="termShadow"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/></filter>
+    <clipPath id="termClip"><rect x="490" y="58" width="340" height="225" rx="0"/></clipPath>
   </defs>
 
-  <rect width="850" height="300" fill="url(#bgGrad)" rx="6"/>
+  <rect width="850" height="300" fill="url(#bgGrad)"/>
 
-  <g stroke="#58a6ff" stroke-width="0.3" opacity="0.04">
-    <line x1="0" y1="60" x2="850" y2="60"/>
-    <line x1="0" y1="120" x2="850" y2="120"/>
-    <line x1="0" y1="180" x2="850" y2="180"/>
-    <line x1="0" y1="240" x2="850" y2="240"/>
-    <line x1="170" y1="0" x2="170" y2="300"/>
-    <line x1="340" y1="0" x2="340" y2="300"/>
-    <line x1="510" y1="0" x2="510" y2="300"/>
-    <line x1="680" y1="0" x2="680" y2="300"/>
+  <!-- Grid -->
+  <g stroke="#58a6ff" stroke-width="0.2" opacity="0.035">
+    <line x1="0" y1="50" x2="850" y2="50"/><line x1="0" y1="100" x2="850" y2="100"/><line x1="0" y1="150" x2="850" y2="150"/><line x1="0" y1="200" x2="850" y2="200"/><line x1="0" y1="250" x2="850" y2="250"/>
+    <line x1="85" y1="0" x2="85" y2="300"/><line x1="170" y1="0" x2="170" y2="300"/><line x1="255" y1="0" x2="255" y2="300"/><line x1="340" y1="0" x2="340" y2="300"/><line x1="425" y1="0" x2="425" y2="300"/><line x1="510" y1="0" x2="510" y2="300"/><line x1="595" y1="0" x2="595" y2="300"/><line x1="680" y1="0" x2="680" y2="300"/><line x1="765" y1="0" x2="765" y2="300"/>
   </g>
 
-  <circle cx="80" cy="45" r="1.2" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.7;0" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="45;30;45" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="200" cy="280" r="1" fill="#a78bfa" opacity="0">
-    <animate attributeName="opacity" values="0;0.5;0" dur="5s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="280;265;280" dur="5s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="380" cy="60" r="1.5" fill="#34d399" opacity="0">
-    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="60;48;60" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="430" cy="250" r="1" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="6s" begin="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="250;240;250" dur="6s" begin="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="150" cy="180" r="0.8" fill="#f59e0b" opacity="0">
-    <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="180;170;180" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="320" cy="140" r="1.2" fill="#a78bfa" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="5.5s" begin="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="140;125;140" dur="5.5s" begin="0.8s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="250" cy="150" r="100" fill="#58a6ff" opacity="0.02" filter="url(#softGlow)">
-    <animate attributeName="r" values="100;115;100" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="280" cy="140" r="60" fill="#a78bfa" opacity="0.015" filter="url(#softGlow)">
-    <animate attributeName="r" values="60;72;60" dur="5s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-
-  <text x="45" y="75" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" fill="#8b949e" letter-spacing="4" opacity="0">
-    HELLO WORLD, I'M
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
-  </text>
-
-  <text x="45" y="125" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">
-    José Luis
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>
-  </text>
-
-  <text x="45" y="175" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">
-    García Valverde
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
-  </text>
-
-  <line x1="45" y1="185" x2="45" y2="185" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0">
-    <animate attributeName="x2" values="45;420" dur="0.8s" begin="1.2s" fill="freeze"/>
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>
-  </line>
-
-  <text x="45" y="215" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#9ca3af" opacity="0">
-    Backend Software Engineer · Distributed Systems
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
-  </text>
-
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.8s" fill="freeze"/>
-    <rect x="45" y="232" width="95" height="24" rx="12" fill="#1a3a1a" stroke="#34d399" stroke-width="0.8"/>
-    <text x="92" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#34d399" text-anchor="middle">Spring Boot</text>
-    <rect x="148" y="232" width="70" height="24" rx="12" fill="#1a2a3a" stroke="#58a6ff" stroke-width="0.8"/>
-    <text x="183" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#58a6ff" text-anchor="middle">Docker</text>
-    <rect x="226" y="232" width="65" height="24" rx="12" fill="#1a1a3a" stroke="#a78bfa" stroke-width="0.8"/>
-    <text x="258" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle">React</text>
-    <rect x="299" y="232" width="110" height="24" rx="12" fill="#3a2a1a" stroke="#f59e0b" stroke-width="0.8"/>
-    <text x="354" y="248" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">🚀 Open to Work</text>
+  <!-- Code rain -->
+  <g font-family="monospace" opacity="0.07">
+    <text x="30" y="-10" font-size="13" fill="#58a6ff">0<animate attributeName="y" values="-10;310" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.12;0" dur="7s" repeatCount="indefinite"/></text>
+    <text x="95" y="-20" font-size="11" fill="#34d399">1<animate attributeName="y" values="-20;310" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.1;0" dur="9s" begin="2s" repeatCount="indefinite"/></text>
+    <text x="175" y="-15" font-size="12" fill="#a78bfa">{<animate attributeName="y" values="-15;310" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.1;0" dur="8s" begin="1s" repeatCount="indefinite"/></text>
+    <text x="260" y="-10" font-size="10" fill="#58a6ff">}<animate attributeName="y" values="-10;310" dur="10s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.08;0" dur="10s" begin="3s" repeatCount="indefinite"/></text>
+    <text x="350" y="-20" font-size="11" fill="#34d399">&lt;<animate attributeName="y" values="-20;310" dur="7.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.1;0" dur="7.5s" begin="0.5s" repeatCount="indefinite"/></text>
+    <text x="400" y="-15" font-size="13" fill="#a78bfa">/&gt;<animate attributeName="y" values="-15;310" dur="8.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.09;0" dur="8.5s" begin="4s" repeatCount="indefinite"/></text>
+    <text x="440" y="-10" font-size="10" fill="#58a6ff">=&gt;<animate attributeName="y" values="-10;310" dur="11s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.08;0" dur="11s" begin="1.5s" repeatCount="indefinite"/></text>
+    <text x="60" y="-25" font-size="9" fill="#34d399">fn<animate attributeName="y" values="-25;310" dur="12s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.07;0" dur="12s" begin="5s" repeatCount="indefinite"/></text>
+    <text x="130" y="-10" font-size="10" fill="#a78bfa">;<animate attributeName="y" values="-10;310" dur="6.5s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.09;0" dur="6.5s" begin="3.5s" repeatCount="indefinite"/></text>
+    <text x="310" y="-20" font-size="12" fill="#58a6ff">( )<animate attributeName="y" values="-20;310" dur="9.5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.08;0" dur="9.5s" begin="2.5s" repeatCount="indefinite"/></text>
   </g>
 
-  <text x="45" y="280" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#6b7280" opacity="0">
-    📍 Murcia, Spain  ·  🎓 Universidad de Murcia  ·  💻 CS 2026
-    <animate attributeName="opacity" values="0;0.8" dur="0.6s" begin="2.1s" fill="freeze"/>
-  </text>
+  <!-- Orbs -->
+  <circle cx="220" cy="140" r="130" fill="url(#orbGlow)"><animate attributeName="r" values="130;150;130" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="100" r="80" fill="url(#orbGlow2)"><animate attributeName="r" values="80;95;80" dur="5.5s" begin="1s" repeatCount="indefinite"/></circle>
+  <circle cx="650" cy="160" r="100" fill="url(#orbGlow2)"><animate attributeName="r" values="100;115;100" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
 
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze"/>
-    <rect x="493" y="33" width="330" height="244" rx="10" fill="#000" opacity="0.3" filter="url(#softGlow)"/>
-    <rect x="490" y="30" width="330" height="244" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-    <rect x="490" y="30" width="330" height="30" rx="10" fill="url(#termBar)"/>
-    <rect x="490" y="50" width="330" height="10" fill="url(#termBar)"/>
-    <circle cx="510" cy="45" r="5.5" fill="#f85149" opacity="0.9"/>
-    <circle cx="528" cy="45" r="5.5" fill="#d29922" opacity="0.9"/>
-    <circle cx="546" cy="45" r="5.5" fill="#3fb950" opacity="0.9"/>
-    <text x="655" y="49" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#8b949e" text-anchor="middle">about_me.sh</text>
+  <!-- Particles -->
+  <circle cx="70" cy="40" r="1.3" fill="#58a6ff"><animate attributeName="opacity" values="0;0.8;0" dur="3.5s" repeatCount="indefinite"/><animate attributeName="cy" values="40;25;40" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="270" r="1" fill="#a78bfa"><animate attributeName="opacity" values="0;0.5;0" dur="5s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="270;255;270" dur="5s" begin="1s" repeatCount="indefinite"/></circle>
+  <circle cx="360" cy="55" r="1.5" fill="#34d399"><animate attributeName="opacity" values="0;0.7;0" dur="4s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="cy" values="55;40;55" dur="4s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="240" r="0.8" fill="#f59e0b"><animate attributeName="opacity" values="0;0.5;0" dur="6s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="240;228;240" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+  <circle cx="140" cy="170" r="1.1" fill="#58a6ff"><animate attributeName="opacity" values="0;0.4;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cy" values="170;158;170" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="130" r="0.9" fill="#a78bfa"><animate attributeName="opacity" values="0;0.5;0" dur="5.5s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cy" values="130;118;130" dur="5.5s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="50" cy="200" r="0.7" fill="#34d399"><animate attributeName="opacity" values="0;0.4;0" dur="7s" begin="3s" repeatCount="indefinite"/><animate attributeName="cy" values="200;190;200" dur="7s" begin="3s" repeatCount="indefinite"/></circle>
+  <circle cx="250" cy="20" r="1" fill="#f59e0b"><animate attributeName="opacity" values="0;0.3;0" dur="6.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="cy" values="20;10;20" dur="6.5s" begin="4s" repeatCount="indefinite"/></circle>
 
-    <g clip-path="url(#termClip)" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="12.5">
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
-        <text x="505" y="82" fill="#3fb950">❯</text>
-        <text x="522" y="82" fill="#79c0ff">cat</text>
-        <text x="550" y="82" fill="#c9d1d9">about_me.json</text>
+  <!-- NAME -->
+  <text x="40" y="68" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#6e7681" letter-spacing="4.5" opacity="0">HELLO WORLD, I'M<animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/></text>
+  <text x="40" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">José Luis<animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/></text>
+  <text x="40" y="168" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" opacity="0">García Valverde<animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/></text>
+  <line x1="40" y1="178" x2="40" y2="178" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round" opacity="0"><animate attributeName="x2" values="40;430" dur="0.7s" begin="1.1s" fill="freeze"/><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.1s" fill="freeze"/></line>
+  <text x="40" y="205" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" fill="#8b949e" opacity="0">Backend Software Engineer · Distributed Systems<animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/></text>
+
+  <!-- Tags -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.7s" fill="freeze"/>
+    <rect x="40" y="220" width="92" height="22" rx="11" fill="none" stroke="#34d399" stroke-width="0.7" opacity="0.7"/><text x="86" y="235" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" fill="#34d399" text-anchor="middle">Spring Boot</text>
+    <rect x="140" y="220" width="66" height="22" rx="11" fill="none" stroke="#58a6ff" stroke-width="0.7" opacity="0.7"/><text x="173" y="235" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" fill="#58a6ff" text-anchor="middle">Docker</text>
+    <rect x="214" y="220" width="58" height="22" rx="11" fill="none" stroke="#a78bfa" stroke-width="0.7" opacity="0.7"/><text x="243" y="235" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" fill="#a78bfa" text-anchor="middle">React</text>
+    <rect x="280" y="220" width="76" height="22" rx="11" fill="none" stroke="#34d399" stroke-width="0.7" opacity="0.7"/><text x="318" y="235" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" fill="#34d399" text-anchor="middle">MongoDB</text>
+  </g>
+
+  <!-- Open to Work pulsing -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+    <rect x="40" y="250" width="130" height="24" rx="12" fill="#0d2818" stroke="#3fb950" stroke-width="0.8"/>
+    <circle cx="58" cy="262" r="4" fill="#3fb950" opacity="0.3"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="58" cy="262" r="3.5" fill="#3fb950"/>
+    <text x="70" y="266" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#3fb950" font-weight="600">Open to Work</text>
+  </g>
+
+  <text x="40" y="290" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#484f58" opacity="0">📍 Murcia, Spain  ·  🎓 Universidad de Murcia  ·  💻 CS '26<animate attributeName="opacity" values="0;0.9" dur="0.5s" begin="2.3s" fill="freeze"/></text>
+
+  <!-- TERMINAL -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.6s" fill="freeze"/>
+    <g filter="url(#termShadow)"><rect x="488" y="22" width="340" height="256" rx="10" fill="url(#termBody)" stroke="#30363d" stroke-width="1"/></g>
+    <rect x="488" y="22" width="340" height="32" rx="10" fill="url(#termBar)"/><rect x="488" y="44" width="340" height="10" fill="url(#termBar)"/>
+    <circle cx="508" cy="38" r="5" fill="#f85149" opacity="0.85"/><circle cx="524" cy="38" r="5" fill="#d29922" opacity="0.85"/><circle cx="540" cy="38" r="5" fill="#3fb950" opacity="0.85"/>
+    <text x="658" y="42" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#6e7681" text-anchor="middle">⚡ about_me.sh</text>
+    <line x1="488" y1="54" x2="828" y2="54" stroke="#21262d" stroke-width="1"/>
+    <rect x="488" y="54" width="28" height="224" fill="#090d14" opacity="0.5"/>
+
+    <g clip-path="url(#termClip)" font-family="'SF Mono','Fira Code','Cascadia Code',monospace" font-size="12">
+      <g fill="#30363d" font-size="10">
+        <text x="504" y="75" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.6s" fill="freeze"/>1</text>
+        <text x="504" y="95" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.9s" fill="freeze"/>2</text>
+        <text x="504" y="115" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.2s" fill="freeze"/>3</text>
+        <text x="504" y="135" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>4</text>
+        <text x="504" y="155" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.8s" fill="freeze"/>5</text>
+        <text x="504" y="175" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.1s" fill="freeze"/>6</text>
+        <text x="504" y="195" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.4s" fill="freeze"/>7</text>
+        <text x="504" y="215" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/>8</text>
+        <text x="504" y="235" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="4s" fill="freeze"/>9</text>
+        <text x="504" y="255" text-anchor="end" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.3s" fill="freeze"/>10</text>
       </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.2s" fill="freeze"/>
-        <text x="505" y="104" fill="#8b949e">{</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
-        <text x="520" y="126" fill="#ff7b72">"role"</text>
-        <text x="568" y="126" fill="#8b949e">:</text>
-        <text x="580" y="126" fill="#a5d6ff">"Backend Engineer"</text>
-        <text x="730" y="126" fill="#8b949e">,</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.8s" fill="freeze"/>
-        <text x="520" y="148" fill="#ff7b72">"stack"</text>
-        <text x="574" y="148" fill="#8b949e">:</text>
-        <text x="586" y="148" fill="#a5d6ff">"Spring Boot"</text>
-        <text x="700" y="148" fill="#8b949e">,</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.1s" fill="freeze"/>
-        <text x="520" y="170" fill="#ff7b72">"tools"</text>
-        <text x="574" y="170" fill="#8b949e">:</text>
-        <text x="586" y="170" fill="#a5d6ff">"Docker, MQ"</text>
-        <text x="700" y="170" fill="#8b949e">,</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.4s" fill="freeze"/>
-        <text x="520" y="192" fill="#ff7b72">"db"</text>
-        <text x="550" y="192" fill="#8b949e">:</text>
-        <text x="562" y="192" fill="#a5d6ff">"MongoDB"</text>
-        <text x="644" y="192" fill="#8b949e">,</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/>
-        <text x="520" y="214" fill="#ff7b72">"status"</text>
-        <text x="580" y="214" fill="#8b949e">:</text>
-        <text x="592" y="214" fill="#3fb950">"Open to work"</text>
-      </g>
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4s" fill="freeze"/>
-        <text x="505" y="236" fill="#8b949e">}</text>
-      </g>
-      <rect x="518" y="245" width="8" height="14" fill="#58a6ff" opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
-      </rect>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.6s" fill="freeze"/><text x="515" y="75" fill="#3fb950" font-weight="bold">❯</text><text x="530" y="75" fill="#79c0ff">cat</text><text x="555" y="75" fill="#c9d1d9">about_me.json</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.9s" fill="freeze"/><text x="515" y="95" fill="#6e7681">{</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.2s" fill="freeze"/><text x="530" y="115" fill="#ff7b72">"name"</text><text x="576" y="115" fill="#6e7681"> : </text><text x="596" y="115" fill="#a5d6ff">"José Luis"</text><text x="694" y="115" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/><text x="530" y="135" fill="#ff7b72">"role"</text><text x="576" y="135" fill="#6e7681"> : </text><text x="596" y="135" fill="#a5d6ff">"Backend Eng"</text><text x="706" y="135" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.8s" fill="freeze"/><text x="530" y="155" fill="#ff7b72">"stack"</text><text x="582" y="155" fill="#6e7681"> : </text><text x="602" y="155" fill="#a5d6ff">"Spring Boot"</text><text x="714" y="155" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.1s" fill="freeze"/><text x="530" y="175" fill="#ff7b72">"infra"</text><text x="582" y="175" fill="#6e7681"> : </text><text x="602" y="175" fill="#a5d6ff">"Docker, MQ"</text><text x="706" y="175" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.4s" fill="freeze"/><text x="530" y="195" fill="#ff7b72">"db"</text><text x="556" y="195" fill="#6e7681"> : </text><text x="576" y="195" fill="#a5d6ff">"MongoDB"</text><text x="656" y="195" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/><text x="530" y="215" fill="#ff7b72">"front"</text><text x="582" y="215" fill="#6e7681"> : </text><text x="602" y="215" fill="#a5d6ff">"React + TS"</text><text x="706" y="215" fill="#6e7681">,</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="4s" fill="freeze"/><text x="530" y="235" fill="#ff7b72">"status"</text><text x="590" y="235" fill="#6e7681"> : </text><text x="610" y="235" fill="#3fb950">"Hiring? 🚀"</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.3s" fill="freeze"/><text x="515" y="255" fill="#6e7681">}</text></g>
+      <rect x="528" y="262" width="7" height="13" fill="#58a6ff" opacity="0"><animate attributeName="opacity" values="0;0;1;1" dur="1.1s" begin="4.5s" repeatCount="indefinite"/></rect>
     </g>
+    <rect x="488" y="268" width="340" height="10" fill="#161b22"/>
+    <rect x="488" y="272" width="340" height="6" rx="5" fill="#161b22"/>
+    <text x="498" y="276" font-family="monospace" font-size="8" fill="#30363d">UTF-8 · JSON · LF</text>
+    <text x="818" y="276" font-family="monospace" font-size="8" fill="#30363d" text-anchor="end">Ln 10, Col 1</text>
   </g>
 
-  <text x="455" y="70" font-family="monospace" font-size="22" fill="#58a6ff" opacity="0.08">
-    { }
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="5s" repeatCount="indefinite"/>
-  </text>
-  <text x="448" y="155" font-family="monospace" font-size="16" fill="#a78bfa" opacity="0.06">
-    &lt;/&gt;
-    <animateTransform attributeName="transform" type="translate" values="0,0;4,-8;0,0" dur="6s" begin="1s" repeatCount="indefinite"/>
-  </text>
-  <text x="460" y="240" font-family="monospace" font-size="14" fill="#34d399" opacity="0.06">
-    =&gt;
-    <animateTransform attributeName="transform" type="translate" values="0,0;-3,-6;0,0" dur="4.5s" begin="2s" repeatCount="indefinite"/>
-  </text>
-  <text x="420" y="110" font-family="monospace" font-size="12" fill="#f59e0b" opacity="0.05">
-    /**
-    <animateTransform attributeName="transform" type="translate" values="0,0;5,-5;0,0" dur="7s" begin="0.5s" repeatCount="indefinite"/>
-  </text>
+  <!-- Floating symbols -->
+  <text x="458" y="60" font-family="monospace" font-size="20" fill="#58a6ff" opacity="0.06">{ }<animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,0" dur="5s" repeatCount="indefinite"/></text>
+  <text x="450" y="150" font-family="monospace" font-size="15" fill="#a78bfa" opacity="0.05">&lt;/&gt;<animateTransform attributeName="transform" type="translate" values="0,0;5,-10;0,0" dur="6.5s" begin="1s" repeatCount="indefinite"/></text>
+  <text x="465" y="230" font-family="monospace" font-size="13" fill="#34d399" opacity="0.05">=&gt;<animateTransform attributeName="transform" type="translate" values="0,0;-4,-7;0,0" dur="5s" begin="2s" repeatCount="indefinite"/></text>
 
-  <rect x="0" y="296" width="850" height="4" fill="url(#nameGrad)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0" y="296" width="850" height="4" fill="url(#accentLine)" opacity="0.7"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/></rect>
 </svg>
