@@ -80,71 +80,32 @@ fun_fact: I debug distributed systems for fun ☕
 
 ## 🚀 &nbsp;Featured Projects
 
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/order-management-microservices">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=order-management-microservices&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="order-management-microservices"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/event-driven-order-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=event-driven-order-system&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="event-driven-order-system"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/llm-multi-agent-orchestrator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=llm-multi-agent-orchestrator&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="llm-multi-agent-orchestrator"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/microservices-gateway-observability">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=microservices-gateway-observability&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="microservices-gateway-observability"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/CheluisFIT">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=CheluisFIT&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="CheluisFIT"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/TFG-ERP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=TFG-ERP&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="TFG-ERP"/>
-  </a>
-</p>
+| Proyecto | Descripción | Stack |
+|---|---|---|
+| **[order-management-microservices](https://github.com/jlgarciavalverde/order-management-microservices)** | Sistema de pedidos con 3 microservicios REST en FastAPI (orders/inventory/notifications), database-per-service y compensación tipo saga | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/order-management-microservices?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/order-management-microservices?style=flat-square) |
+| **[event-driven-order-system](https://github.com/jlgarciavalverde/event-driven-order-system)** | Sistema de pedidos con arquitectura basada en eventos (RabbitMQ, pub/sub, idempotencia, consistencia eventual) | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/event-driven-order-system?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/event-driven-order-system?style=flat-square) |
+| **[llm-multi-agent-orchestrator](https://github.com/jlgarciavalverde/llm-multi-agent-orchestrator)** | Orquestación de agentes LLM (researcher/writer/reviewer) con Docker, bucle de refinamiento y modo simulado/real intercambiable | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/llm-multi-agent-orchestrator?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/llm-multi-agent-orchestrator?style=flat-square) |
+| **[microservices-gateway-observability](https://github.com/jlgarciavalverde/microservices-gateway-observability)** | Capstone: gateway Nginx, health checks profundos y logging con request_id sobre microservicios REST + agentes LLM | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/microservices-gateway-observability?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/microservices-gateway-observability?style=flat-square) |
+| **[CheluisFIT](https://github.com/jlgarciavalverde/CheluisFIT)** | App móvil para tracking de entrenos de gimnasio: React Native + Node.js + PostgreSQL | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/CheluisFIT?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/CheluisFIT?style=flat-square) |
+| **[TFG-ERP](https://github.com/jlgarciavalverde/TFG-ERP)** | Trabajo de Fin de Grado — ERP multisede con gestión de personal, turnos, nóminas e inventario | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/TFG-ERP?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/TFG-ERP?style=flat-square) |
 
 <details>
-<summary>📂 &nbsp;<b>More projects</b></summary>
+<summary>📂 &nbsp;<b>More projects</b> — prácticas universitarias</summary>
 <br/>
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/Arso_2526">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Arso_2526&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Arso_2526"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/Tienda-Online">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Tienda-Online&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Tienda-Online"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/Pomodoro-App">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Pomodoro-App&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Pomodoro-App"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/AppMusic_TDS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=AppMusic_TDS&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="AppMusic_TDS"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/QFotoPaint-25">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=QFotoPaint-25&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="QFotoPaint-25"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/DaWeb">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=DaWeb&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="DaWeb"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/jlgarciavalverde/MPP_practicas">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=MPP_practicas&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="MPP_practicas"/>
-  </a>
-</p>
+
+| Proyecto | Descripción |
+|---|---|
+| **[Arso_2526](https://github.com/jlgarciavalverde/Arso_2526)** | SegundUM: plataforma de compraventa de segunda mano con arquitectura de microservicios (Spring Boot, RabbitMQ, Docker) |
+| **[segundum](https://github.com/jlgarciavalverde/segundum)** | Backend de SegundUM en Java/JAX-RS con arquitectura hexagonal y mensajería RabbitMQ |
+| **[Tienda-Online](https://github.com/jlgarciavalverde/Tienda-Online)** | Práctica de microservicios REST con Java y Spring Boot (productos, pedidos, usuarios) |
+| **[DaWeb](https://github.com/jlgarciavalverde/DaWeb)** | Frontend SPA en React de una plataforma de compraventa entre usuarios |
+| **[Practicas-PDS](https://github.com/jlgarciavalverde/Practicas-PDS)** | PDS Learning: plataforma de cursos interactivos en Java con estrategias de aprendizaje adaptativas |
+| **[AppMusic_TDS](https://github.com/jlgarciavalverde/AppMusic_TDS)** | Aplicación de escritorio en Java/Swing para gestión y reproducción de música |
+| **[Pomodoro-App](https://github.com/jlgarciavalverde/Pomodoro-App)** | Temporizador Pomodoro en Flutter con gestión de tareas y estadísticas |
+| **[QFotoPaint-25](https://github.com/jlgarciavalverde/QFotoPaint-25)** | Editor de fotografía de escritorio en C++/Qt con filtros de imagen y captura de vídeo |
+| **[MPP_practicas](https://github.com/jlgarciavalverde/MPP_practicas)** | Prácticas de programación paralela (OpenMP/MPI) sobre un algoritmo genético en C |
+| **[SIMU-26](https://github.com/jlgarciavalverde/SIMU-26)** | Escenario interactivo "Bosque Encantado" en Processing con criaturas animadas |
+
 </details>
 
 <br/>
@@ -152,12 +113,6 @@ fun_fact: I debug distributed systems for fun ☕
 <br/>
 
 ## 📊 &nbsp;GitHub Analytics
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=jlgarciavalverde&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&ring_color=58a6ff" alt="Stats"/>
-  &nbsp;&nbsp;
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jlgarciavalverde&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Langs"/>
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=jlgarciavalverde&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681" alt="Streak"/>
@@ -172,14 +127,6 @@ fun_fact: I debug distributed systems for fun ☕
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jlgarciavalverde&theme=github_dark" alt="Repos per Language"/>
   &nbsp;&nbsp;
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jlgarciavalverde&theme=github_dark&utcOffset=2" alt="Productive Time"/>
-</p>
-
-<br/>
-
-## 📈 &nbsp;Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jlgarciavalverde&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff" alt="Activity Graph" width="100%"/>
 </p>
 
 <br/>
