@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Software+Engineer+%7C+Spring+Boot+%26+Microservices;Building+distributed+systems+with+Docker+%26+RabbitMQ;CS+Graduate+%2726+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=820&lines=Backend+Software+Engineer+%7C+Spring+Boot+%26+Microservices;Building+distributed+systems+with+Docker+%26+RabbitMQ;CS+Graduate+%2726+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -20,8 +20,6 @@
 <br/>
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="270" alt="Coding gif"/>
 
 ```yaml
 name: José Luis García Valverde
@@ -41,7 +39,6 @@ current_focus:
 fun_fact: I debug distributed systems for fun ☕
 ```
 
-<br clear="right"/>
 <br/>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 <br/>
