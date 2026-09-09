@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Software+Engineer+%7C+Spring+Boot+%26+Microservices;Building+distributed+systems+with+Docker+%26+RabbitMQ;Recent+CS+Graduate+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Software+Engineer+%7C+Spring+Boot+%26+Microservices;Building+distributed+systems+with+Docker+%26+RabbitMQ;CS+Graduate+%2726+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -33,10 +33,10 @@ education:
   year: 2026
 
 current_focus:
-  - 🔭 Building microservices & distributed systems
+  - 🔭 Building microservices & distributed systems (see Featured Projects below)
   - 🌱 Deepening my DevOps & cloud skills
   - 💬 Ask me about Spring Boot, Docker, or system design
-  - 🎯 Goal: Land my first backend engineering role
+  - 🎯 Actively interviewing for backend engineering roles
 
 fun_fact: I debug distributed systems for fun ☕
 ```
@@ -81,22 +81,32 @@ fun_fact: I debug distributed systems for fun ☕
 ## 🚀 &nbsp;Featured Projects
 
 <p align="center">
-  <a href="https://github.com/jlgarciavalverde/TFG-ERP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=TFG-ERP&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9&description_lines_count=3" alt="TFG-ERP"/>
+  <a href="https://github.com/jlgarciavalverde/order-management-microservices">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=order-management-microservices&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="order-management-microservices"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/Arso_2526">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Arso_2526&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9&description_lines_count=3" alt="Arso_2526"/>
+  <a href="https://github.com/jlgarciavalverde/event-driven-order-system">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=event-driven-order-system&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="event-driven-order-system"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jlgarciavalverde/Tienda-Online">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Tienda-Online&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Tienda-Online"/>
+  <a href="https://github.com/jlgarciavalverde/llm-multi-agent-orchestrator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=llm-multi-agent-orchestrator&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="llm-multi-agent-orchestrator"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/Pomodoro-App">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Pomodoro-App&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Pomodoro-App"/>
+  <a href="https://github.com/jlgarciavalverde/microservices-gateway-observability">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=microservices-gateway-observability&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="microservices-gateway-observability"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jlgarciavalverde/CheluisFIT">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=CheluisFIT&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="CheluisFIT"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/jlgarciavalverde/TFG-ERP">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=TFG-ERP&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="TFG-ERP"/>
   </a>
 </p>
 
@@ -104,19 +114,33 @@ fun_fact: I debug distributed systems for fun ☕
 <summary>📂 &nbsp;<b>More projects</b></summary>
 <br/>
 <p align="center">
-  <a href="https://github.com/jlgarciavalverde/AppMusic_TDS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=AppMusic_TDS&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="AppMusic_TDS"/>
+  <a href="https://github.com/jlgarciavalverde/Arso_2526">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Arso_2526&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Arso_2526"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/jlgarciavalverde/QFotoPaint-25">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=QFotoPaint-25&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="QFotoPaint-25"/>
+  <a href="https://github.com/jlgarciavalverde/Tienda-Online">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Tienda-Online&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Tienda-Online"/>
   </a>
 </p>
 <p align="center">
+  <a href="https://github.com/jlgarciavalverde/Pomodoro-App">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=Pomodoro-App&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="Pomodoro-App"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/jlgarciavalverde/AppMusic_TDS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=AppMusic_TDS&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="AppMusic_TDS"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/jlgarciavalverde/QFotoPaint-25">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=QFotoPaint-25&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="QFotoPaint-25"/>
+  </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/jlgarciavalverde/DaWeb">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=DaWeb&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="DaWeb"/>
   </a>
-  &nbsp;&nbsp;
+</p>
+<p align="center">
   <a href="https://github.com/jlgarciavalverde/MPP_practicas">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=jlgarciavalverde&repo=MPP_practicas&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=34d399&text_color=c9d1d9" alt="MPP_practicas"/>
   </a>
@@ -152,14 +176,6 @@ fun_fact: I debug distributed systems for fun ☕
 
 <br/>
 
-## 🏆 &nbsp;Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jlgarciavalverde&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="Trophies"/>
-</p>
-
-<br/>
-
 ## 📈 &nbsp;Contribution Graph
 
 <p align="center">
@@ -180,14 +196,6 @@ fun_fact: I debug distributed systems for fun ☕
 
 <br/>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
-<br/>
-
-## 💬 &nbsp;Random Dev Quote
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote"/>
-</p>
-
 <br/>
 
 ## 🤝 &nbsp;Let's Connect
