@@ -1,5 +1,5 @@
 <!-- ===== ANIMATED HEADER ===== -->
-<img src="./header-animation.svg" width="100%" alt="José Luis García Valverde — Backend Software Engineer"/>
+<img src="./header-animation.svg" width="100%" alt="José Luis García Valverde — Full-Stack & Automation Engineer"/>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
