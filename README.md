@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=820&lines=Backend+Software+Engineer+%7C+Spring+Boot+%26+Microservices;Building+distributed+systems+with+Docker+%26+RabbitMQ;CS+Graduate+%2726+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=820&lines=Full-Stack+%26+Automation+Engineer+%7C+TypeScript+%C2%B7+Java+%C2%B7+IA;Apps+en+producci%C3%B3n+con+React%2C+Node.js+y+PostgreSQL;CS+Graduate+%2726+%7C+Universidad+de+Murcia+%F0%9F%8E%93;Open+to+work+%E2%80%94+Let's+build+something+great+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -31,10 +31,10 @@ education:
   year: 2026
 
 current_focus:
-  - 🔭 Building microservices & distributed systems (see Featured Projects below)
+  - 🔭 Shipping full-stack apps to my own Linux server (React, Node.js, PostgreSQL, Stripe)
   - 🌱 Deepening my DevOps & cloud skills
-  - 💬 Ask me about Spring Boot, Docker, or system design
-  - 🎯 Actively interviewing for backend engineering roles
+  - 🤖 Automating processes with n8n, APIs and LLM agents (MCP)
+  - 🎯 Open to full-stack, backend and process-automation roles
 
 fun_fact: I debug distributed systems for fun ☕
 ```
@@ -48,14 +48,14 @@ fun_fact: I debug distributed systems for fun ☕
 <!-- Primary stack — skillicons for visual impact -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,docker,mongodb,react,ts,nodejs,git&theme=dark" alt="Primary Stack"/>
+    <img src="https://skillicons.dev/icons?i=ts,react,nodejs,postgres,java,spring,python,docker&theme=dark" alt="Primary Stack"/>
   </a>
 </p>
 
 <!-- Secondary -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,cpp,c,dart,flutter,html,css&theme=dark" alt="Secondary Stack"/>
+    <img src="https://skillicons.dev/icons?i=linux,bash,git,githubactions,mongodb,flutter,cpp,c&theme=dark" alt="Secondary Stack"/>
   </a>
 </p>
 
@@ -79,11 +79,12 @@ fun_fact: I debug distributed systems for fun ☕
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
+| **[paquito-coach](https://github.com/jlgarciavalverde/paquito-coach)** | Plataforma tipo Harbiz para entrenadores: clientes, rutinas, reservas, chat, pagos con Stripe y asistente IA; React + Fastify + PostgreSQL | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/paquito-coach?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/paquito-coach?style=flat-square) |
 | **[order-management-microservices](https://github.com/jlgarciavalverde/order-management-microservices)** | Sistema de pedidos con 3 microservicios REST en FastAPI (orders/inventory/notifications), database-per-service y compensación tipo saga | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/order-management-microservices?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/order-management-microservices?style=flat-square) |
 | **[event-driven-order-system](https://github.com/jlgarciavalverde/event-driven-order-system)** | Sistema de pedidos con arquitectura basada en eventos (RabbitMQ, pub/sub, idempotencia, consistencia eventual) | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/event-driven-order-system?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/event-driven-order-system?style=flat-square) |
 | **[llm-multi-agent-orchestrator](https://github.com/jlgarciavalverde/llm-multi-agent-orchestrator)** | Orquestación de agentes LLM (researcher/writer/reviewer) con Docker, bucle de refinamiento y modo simulado/real intercambiable | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/llm-multi-agent-orchestrator?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/llm-multi-agent-orchestrator?style=flat-square) |
 | **[microservices-gateway-observability](https://github.com/jlgarciavalverde/microservices-gateway-observability)** | Capstone: gateway Nginx, health checks profundos y logging con request_id sobre microservicios REST + agentes LLM | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/microservices-gateway-observability?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/microservices-gateway-observability?style=flat-square) |
-| **[CheluisFIT](https://github.com/jlgarciavalverde/CheluisFIT)** | App móvil para tracking de entrenos de gimnasio: React Native + Node.js + PostgreSQL | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/CheluisFIT?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/CheluisFIT?style=flat-square) |
+| **[cheluisfit-app](https://github.com/jlgarciavalverde/cheluisfit-app)** | App de fitness multiusuario (Expo/React Native + web): nutrición, running y fuerza; Garmin vía Health Connect, Strava, Open Food Facts/USDA e IA con foto | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/cheluisfit-app?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/cheluisfit-app?style=flat-square) |
 | **[TFG-ERP](https://github.com/jlgarciavalverde/TFG-ERP)** | Trabajo de Fin de Grado — ERP multisede con gestión de personal, turnos, nóminas e inventario | ![lang](https://img.shields.io/github/languages/top/jlgarciavalverde/TFG-ERP?style=flat-square) ![license](https://img.shields.io/github/license/jlgarciavalverde/TFG-ERP?style=flat-square) |
 
 <details>
